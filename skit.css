@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Anton', sans-serif;
+    background-image: url("https://cdn.pixabay.com/photo/2017/07/08/09/49/red-2483933_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.container{
+    width:95%;
+    margin:auto;
+}
+
+.container .nav{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    width:100%;
+    margin:25px 0;
+}
+
+.container .nav h1{
+    font-size:3rem;
+    color: white;
+}
+
+.container .nav .box{
+    width:400px;
+    text-align: center;
+}
+
+.box input{
+    width: 80%;
+    outline: none;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.box input:focus{
+    box-shadow: 0 0 10px red;
+    border: 10x solid red;
+
+}
+
+.box input:hover{
+    box-shadow: 0 0 10px red;
+    border: 10x solid red;
+}
+
+
+
+.box button{
+    cursor: pointer;
+    color: grey;
+    padding:8px;
+    width: fit-content;
+    font-size: 15px;
+    transition: 1s;
+    outline: none;
+    background-color: transparent;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.box button:hover{
+    box-shadow: 0 0 5px red;
+    
+}
+
+.container .todoitems{
+    width:500px;
+    margin:auto;
+}
+
+.item{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    width:100%;
+    height: auto;
+    border-radius: 2px;
+    padding:16px;
+    color:black;
+    margin-top:10px;
+    font-size:1rem;
+    text-transform: uppercase;
+}
+
+.item:hover{
+    box-shadow: 0 0 10px red;
+}
+
+.item i{
+    cursor: pointer;
+    margin:3px;
+    size: 5px;
+}
+
+.item i:hover{
+    box-shadow: 0 0 3px red;
+}
+
+
+
+
+
+
+
